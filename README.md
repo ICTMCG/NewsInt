@@ -40,8 +40,8 @@ Dataset Description:
 
 | Intent Label | Fine-grained label | domain_label     |
 | ------------ | ------------------ | ---------------- |
-| topic        | target             | bias_lavel       |
-| belief       | target_effect      | factuality_lavel |
+| topic        | target             | bias_level       |
+| belief       | target_effect      | factuality_level |
 | desire       | rise_controversy   | satire           |
 | plan         | alter_opinion      | propaganda       |
 | intent       | social_emotion     | science          |

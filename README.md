@@ -8,7 +8,7 @@ News creation intent refers to the purpose or intention behind the creation of a
 
 To bridge this gap, we propose News INTent (NINT) frame, the first component-aware formalism for understanding the news creation intent based on research in philosophy, psychology, and cognitive science. Based on the frame, we propose NewsInt, the first dataset for news creation intent understanding. This dataset encompasses a diverse range of topics and rich social context.
 
-**To the best of our knowledge, it is the first news creation intent dataset through a deconstruction approach.**
+**To the best of our knowledge, this is the first news creation intent dataset through a deconstruction approach.**
 
 NINT Frame for News Intent Understanding:
 
@@ -38,7 +38,7 @@ Dataset Description:
 | title   | Big Tech’s Domination of Business Reaches New Heights        |
 | content | American tech titans flew high before the coronavirus pandemic, making billions of dollars a year. Now, the upheaval has lifted them to new heights, putting the industry in a position to dominate American business in a way unseen since the days of railroads... |
 
-| Intent Label | Fine-grained label | domain_label     |
+| Intent Label | Fine-grained label | Domain label     |
 | ------------ | ------------------ | ---------------- |
 | topic        | target             | bias_level       |
 | belief       | target_effect      | factuality_level |

@@ -1,6 +1,15 @@
 # News Creation **Intent Recognition (NewsInt)**
 
-This repo contains the official dataset and a unified framework for news creation intent benchmarks of the research paper "**Understanding News Creation Intents: Frame, Dataset, and Method**".
+This repo contains the official dataset and a unified framework for news creation intent benchmarks of the research paper "**Understanding News Creation Intents: Frame, Dataset, and Method**" [[pdf](https://arxiv.org/pdf/2312.16490.pdf)].
+
+```
+@article{wang2023understanding,
+  title={Understanding News Creation Intents: Frame, Dataset, and Method},
+  author={Wang, Zhengjia and Wang, Danding and Sheng, Qiang and Cao, Juan and Su, Silong and Sun, Yifan and Hu, Beizhe and Ma, Siyuan},
+  journal={arXiv preprint arXiv:2312.16490},
+  year={2023}
+}
+```
 
 ## 1. Introduction
 

@@ -1,6 +1,16 @@
-# News Creation **Intent Recognition (NewsInt)**
+# News Creation Intent Recognition
 
-This repo contains the official dataset and a unified framework for news creation intent benchmarks of the research paper "**Understanding News Creation Intents: Frame, Dataset, and Method**" [[pdf](https://arxiv.org/pdf/2312.16490.pdf)].
+<div align= center>
+<img src="figs/fig1.png" width="600px" >
+</div>
+
+This repo contains the official dataset **NewsInt** for news intent recognition of the research paper "**Exploring news intent and its application: A theory-driven approach**" [[pdf](https://arxiv.org/pdf/2312.16490.pdf)].
+
+📦 **NewsInt Dataset**: a fine-grained labeled dataset for news creation intent recognition
+
+---
+
+<!-- ⚒️ **DMInt Method**: a plug-in method for news intent application -->
 
 ```
 @article{wang2023understanding,
@@ -11,64 +21,47 @@ This repo contains the official dataset and a unified framework for news creatio
 }
 ```
 
-## 1. Introduction
+## 1. Conceptual Deconstruction-based News INTent Understanding Framework (NINT)
 
-News creation intent refers to the purpose or intention behind the creation of a news article. While the significance of research on news intent has been widely acknowledged, the absence of a systematic news intent understanding framework hinders further exploration of news intent and its downstream applications. 
+<div align= center>
+<img src="figs/fig2.png" width="700px" >
+</div>
 
-To bridge this gap, we propose News INTent (NINT) frame, the first component-aware formalism for understanding the news creation intent based on research in philosophy, psychology, and cognitive science. Based on the frame, we propose NewsInt, the first dataset for news creation intent understanding. This dataset encompasses a diverse range of topics and rich social context.
+Intent refers to a cognitive state that emerges from rational planning, grounded in the agent's desires and beliefs. News creation intent refers to the purpose or intention behind the creation of a news article. 
+
+We present the first **Conceptual Deconstruction-based News INTent Understanding framework (NINT)**, deconstructing news intent from perspectives of rational action and outcomes. 
+
+NINT deconstructs the concept of news intent into beliefs, desires, and plans using interdisciplinary theories. It further situates these elements within the specific context of news to investigate the concrete manifestations of news intent.
 
 **To the best of our knowledge, this is the first news creation intent dataset through a deconstruction approach.**
 
-NINT Frame for News Intent Understanding:
-
-<div align= center>
-<img src="figs/frame.png" width="600px" >
-</div>
-
-Examples of News Creation Intent Recognition:
-
-<div align= center>
-<img src="figs/motiv.png" width="400px" >
-</div>
 
 ## 2. Dataset Construction
 
 The overall process of building the NewsInt dataset is shown below:
 
+<div align= center>
+<img src="figs/fig3.png" width="500px" >
+</div>
+
 We collect raw data from 511 news domains, resulting in 12,959 news articles with an average of 5.45 discussion posts from Reddit for each news article. The obtained news articles show diverse distribution on contemporary topics (such as general politics or the US presidential race, the COVID-19 pandemic, women’s and men’s rights, climate change, vaccines, abortion, gun control, 5G, etc.).
 
-Dataset Description:
 
-| Field   | Example                                                      |
-| ------- | ------------------------------------------------------------ |
-| domain  | nytimes.com                                                  |
-| date    | 2020-08-19                                                   |
-| author  | Peter Eavis and Steve Lohr                                   |
-| title   | Big Tech’s Domination of Business Reaches New Heights        |
-| content | American tech titans flew high before the coronavirus pandemic, making billions of dollars a year. Now, the upheaval has lifted them to new heights, putting the industry in a position to dominate American business in a way unseen since the days of railroads... |
-
-| Intent Label | Fine-grained label | Domain label     |
-| ------------ | ------------------ | ---------------- |
-| topic        | target             | bias_level       |
-| belief       | target_effect      | factuality_level |
-| desire       | rise_controversy   | satire           |
-| plan         | alter_opinion      | propaganda       |
-| intent       | social_emotion     | science          |
-| intent_text  | frame_as           |                  |
-|              | persuasion         |                  |
-
-Dataset Distribution Based on News Domain:
+Data distribution in factuality (left) and political bias level (right):
 
 <div align= center>
-<img src="figs/domain.png" width="400px" >
+<img src="figs/fig4.png" width="500px" >
 </div>
 
-Dataset Statistics:
+An Instance from the NewsInt dataset:
 
 <div align= center>
-<img src="figs/statistic.png" width="300px" >
+<img src="figs/fig5.png" width="500px" >
 </div>
+
+For more details on data collection, annotation, and dataset analysis, please refer to our original paper "**Exploring news intent and its application: A theory-driven approach**".
 
 ## 3. Usage
 
-Relevant resources will be released upon publication.
+Please fill out this form: [Application to Use the Dataset NewsInt](https://forms.office.com/r/9QvFCFT835) to request access.
+

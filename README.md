@@ -6,30 +6,11 @@
 
 This repo contains the official dataset **NewsInt** for news intent recognition of the research paper "**Exploring news intent and its application: A theory-driven approach**" [[pdf](https://arxiv.org/abs/2312.16490)].
 
-📦 **NewsInt Dataset**: a fine-grained labeled dataset for news creation intent recognition
+📦 **NewsInt Dataset**: a fine-grained labeled dataset for news creation intent recognition. [[dataset_readme](https://github.com/ICTMCG/NewsInt/blob/main/dataset_readme.md)]
 
 ---
 
 <!-- ⚒️ **DMInt Method**: a plug-in method for news intent application -->
-
-If you find our paper useful, please cite:
-
-```
-@article{WANG2025104229,
-  title = {Exploring news intent and its application: A theory-driven approach},
-  journal = {Information Processing & Management},
-  volume = {62},
-  number = {6},
-  pages = {104229},
-  year = {2025},
-  issn = {0306-4573},
-  doi = {https://doi.org/10.1016/j.ipm.2025.104229},
-  url = {https://www.sciencedirect.com/science/article/pii/S0306457325001700},
-  author = {Zhengjia Wang and Danding Wang and Qiang Sheng and Juan Cao and Siyuan Ma and Haonan Cheng},
-  keywords = {Intent mining, News media, Social computing},
-  abstract = {Understanding the intent behind information is crucial. However, news as a medium of public discourse still lacks a structured investigation of perceived news intent and its application. To advance this field, this paper reviews interdisciplinary studies on intentional action and introduces a conceptual deconstruction-based news intent understanding framework (Nint). This framework identifies the components of intent, facilitating a structured representation of news intent and its applications. Building upon Nint, we contribute a new intent perception dataset. Moreover, we investigate the potential of intent assistance on news-related tasks, such as significant improvement (+2.2% macF1) in the task of fake news detection. We hope that our findings will provide valuable insights into action-based intent cognition and computational social science.}
-}
-```
 
 ## 1. Conceptual Deconstruction-based News INTent Understanding Framework (NINT)
 
@@ -73,5 +54,24 @@ For more details on data collection, annotation, and dataset analysis, please re
 
 ## 3. Usage
 
-Please fill out this form: [Application to Use the Dataset NewsInt](https://forms.office.com/r/9QvFCFT835) to request access.
+Please fill out this form: [Application to Use the Dataset NewsInt](https://forms.office.com/r/9QvFCFT835) to request access. [[dataset_readme](https://github.com/ICTMCG/NewsInt/blob/main/dataset_readme.md)]
 
+---
+If you find our paper useful, please cite:
+
+```
+@article{WANG2025104229,
+  title = {Exploring news intent and its application: A theory-driven approach},
+  journal = {Information Processing & Management},
+  volume = {62},
+  number = {6},
+  pages = {104229},
+  year = {2025},
+  issn = {0306-4573},
+  doi = {https://doi.org/10.1016/j.ipm.2025.104229},
+  url = {https://www.sciencedirect.com/science/article/pii/S0306457325001700},
+  author = {Zhengjia Wang and Danding Wang and Qiang Sheng and Juan Cao and Siyuan Ma and Haonan Cheng},
+  keywords = {Intent mining, News media, Social computing},
+  abstract = {Understanding the intent behind information is crucial. However, news as a medium of public discourse still lacks a structured investigation of perceived news intent and its application. To advance this field, this paper reviews interdisciplinary studies on intentional action and introduces a conceptual deconstruction-based news intent understanding framework (Nint). This framework identifies the components of intent, facilitating a structured representation of news intent and its applications. Building upon Nint, we contribute a new intent perception dataset. Moreover, we investigate the potential of intent assistance on news-related tasks, such as significant improvement (+2.2% macF1) in the task of fake news detection. We hope that our findings will provide valuable insights into action-based intent cognition and computational social science.}
+}
+```

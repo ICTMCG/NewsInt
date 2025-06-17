@@ -6,7 +6,7 @@
 
 This repo contains the official dataset **NewsInt** for news intent recognition of the research paper "**Exploring news intent and its application: A theory-driven approach**" 
 
-🌟 Accepted to *Information Processing & Management*
+🎉 Accepted to *Information Processing & Management*
 
 Wang, Z., Wang, D., Sheng, Q., Cao, J., Ma, S., & Cheng, H. (2025). Exploring news intent and its application: A theory-driven approach. Information Processing & Management, 62(6), 104229. https://doi.org/10.1016/j.ipm.2025.104229
 

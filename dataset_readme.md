@@ -3,8 +3,6 @@
 This dataset is released as part of the paper: **"Exploring news intent and its application: A theory-driven approach"**  
 Published in *Information Processing & Management*, 2025.  
 
-📄 Paper Link: https://arxiv.org/abs/2312.16490
-
 🛠️ Project: https://github.com/ICTMCG/NewsInt
 
 🔗 DOI: https://doi.org/10.1016/j.ipm.2025.104229

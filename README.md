@@ -4,7 +4,17 @@
 <img src="figs/fig1.png" width="600px" >
 </div>
 
-This repo contains the official dataset **NewsInt** for news intent recognition of the research paper "**Exploring news intent and its application: A theory-driven approach**" [[pdf](https://arxiv.org/abs/2312.16490)].
+This repo contains the official dataset **NewsInt** for news intent recognition of the research paper "**Exploring news intent and its application: A theory-driven approach**" 
+
+🌟 Accepted to *Information Processing & Management*
+
+Wang, Z., Wang, D., Sheng, Q., Cao, J., Ma, S., & Cheng, H. (2025). Exploring news intent and its application: A theory-driven approach. Information Processing & Management, 62(6), 104229. https://doi.org/10.1016/j.ipm.2025.104229
+
+- 📄 Paper Link: https://arxiv.org/abs/2312.16490
+- 🛠️ Project: https://github.com/ICTMCG/NewsInt
+- 🔗 DOI: https://doi.org/10.1016/j.ipm.2025.104229
+
+
 
 📦 **NewsInt Dataset**: a fine-grained labeled dataset for news creation intent recognition. 
 

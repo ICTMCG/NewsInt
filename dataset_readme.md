@@ -16,22 +16,24 @@ Published in *Information Processing & Management*, 2025.
 ```
 📦NewsInt
  ┣ 📂news
- ┃ ┣ 📜news_docs.json      # All news documents with full metadata
- ┃ ┣ 📜news_topic.json     # Potential topic assignments for each news article
- ┃ ┣ 📜train.csv           # Training set (news ID and associated labels)
- ┃ ┣ 📜val.csv             # Validation set (news ID and associated labels)
- ┃ ┗ 📜test.csv            # Test set (news ID and associated labels)
+ ┃ ┣ 📜domain_info_all.json     # Domain-level label of news articles
+ ┃ ┣ 📜news_docs.json           # All news documents with full metadata
+ ┃ ┣ 📜news_topic.json          # Potential topic assignments for each news article
+ ┃ ┣ 📜train.csv                # Training set (news ID and associated labels)
+ ┃ ┣ 📜val.csv                  # Validation set (news ID and associated labels)
+ ┃ ┗ 📜test.csv                 # Test set (news ID and associated labels)
  ┣ 📂post
- ┃ ┣ 📜post.json           # All social media posts, with reply and tree structure
- ┃ ┣ 📜post_docs.json      # Metadata for all posts
- ┃ ┗ 📜id_post_pair.json   # Mapping between news ID and associated post IDs
- ┗ 📜README.md             # This file
+ ┃ ┣ 📜post.json                # All social media posts, with reply and tree structure
+ ┃ ┣ 📜post_docs.json           # Metadata for all posts
+ ┃ ┗ 📜id_post_pair.json        # Mapping between news ID and associated post IDs
+ ┗ 📜README.md                  # This file
  ```
 
 ## 📰 News Data
 
 Located in `news/`, each news item is uniquely identified by an ID and described with metadata in `news_docs.json`. 
 
+- `domain_info_all.json`: All news domain information with labels featuring disinformation, satire, propaganda, science_level, bias, and factuality.
 - `news_docs.json`: All news documents with full metadata, identified by a news ID (dict.keys()).
 - `news_topic.json`: Potential topic assignments for each news article, identified by a news ID.
 - `*.csv`: The dataset is split into `train.csv`, `val.csv`, and `test.csv` for supervised tasks.

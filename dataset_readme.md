@@ -58,7 +58,7 @@ The `post/` directory contains comments and discussions referencing the news art
 - `post.json`: Contains auxiliary information for each post.
 - `post_docs.json`: Contains meta information for each post.
 
-An example entry of `post_docs.json`:
+An example entry of `post.json`:
 ```
 {
   "pid": "gpblmvf",

@@ -6,7 +6,11 @@
 
 This repo contains the official dataset **NewsInt** for news intent recognition of the research paper "**Exploring news intent and its application: A theory-driven approach**" [[pdf](https://arxiv.org/abs/2312.16490)].
 
-📦 **NewsInt Dataset**: a fine-grained labeled dataset for news creation intent recognition. [[dataset_readme](https://github.com/ICTMCG/NewsInt/blob/main/dataset_readme.md)]
+📦 **NewsInt Dataset**: a fine-grained labeled dataset for news creation intent recognition. 
+
+- [Application to Use the Dataset NewsInt](https://forms.office.com/r/9QvFCFT835)
+- [dataset_readme](https://github.com/ICTMCG/NewsInt/blob/main/dataset_readme.md)
+
 
 ---
 

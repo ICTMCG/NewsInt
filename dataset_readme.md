@@ -3,9 +3,9 @@
 This dataset is released as part of the paper: **"Exploring news intent and its application: A theory-driven approach"**  
 Published in *Information Processing & Management*, 2025.  
 
-🛠️ Project: https://github.com/ICTMCG/NewsInt
-
-🔗 DOI: https://doi.org/10.1016/j.ipm.2025.104229
+- 🛠️ Project: https://github.com/ICTMCG/NewsInt
+- 🔗 Paper: https://doi.org/10.1016/j.ipm.2025.104229
+- 🏡 Home page: https://zhengjiawa.github.io/
 
 ---
 

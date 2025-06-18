@@ -8,10 +8,11 @@ This repo contains the official dataset **NewsInt** for news intent recognition 
 
 🎉 Accepted to *Information Processing & Management*
 
-Wang, Z., Wang, D., Sheng, Q., Cao, J., Ma, S., & Cheng, H. (2025). Exploring news intent and its application: A theory-driven approach. Information Processing & Management, 62(6), 104229. https://doi.org/10.1016/j.ipm.2025.104229
+[Zhengjia Wang](https://zhengjiawa.github.io/), Danding Wang, Qiang Sheng, Juan Cao, Siyuan Ma, Haonan Cheng (2025). Exploring news intent and its application: A theory-driven approach. Information Processing & Management, 62(6), 104229. https://doi.org/10.1016/j.ipm.2025.104229
 
 - 🛠️ Project: https://github.com/ICTMCG/NewsInt
-- 🔗 DOI: https://doi.org/10.1016/j.ipm.2025.104229
+- 🔗 Paper: https://doi.org/10.1016/j.ipm.2025.104229
+- 📖 PDF: https://arxiv.org/pdf/2312.16490
 
 
 

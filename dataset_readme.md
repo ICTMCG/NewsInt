@@ -79,14 +79,17 @@ An example entry of `post.json`:
 If you find this dataset useful, please cite our paper:
 
 ```
-@article{WANG2025104229,
+@article{wang2025exploring,
   title = {Exploring news intent and its application: A theory-driven approach},
-  journal = {Information Processing & Management},
+  author = {Wang, Zhengjia and Wang, Danding and Sheng, Qiang and Cao, Juan and Ma, Siyuan and Cheng, Haonan},
+  journal = {Information Processing \& Management},
   volume = {62},
   number = {6},
   pages = {104229},
   year = {2025},
+  publisher = {Elsevier},
+  issn = {0306-4573},
   doi = {https://doi.org/10.1016/j.ipm.2025.104229},
-  author = {Zhengjia Wang and Danding Wang and Qiang Sheng and Juan Cao and Siyuan Ma and Haonan Cheng}
+  url = {https://www.sciencedirect.com/science/article/pii/S0306457325001700}
 }
 ```

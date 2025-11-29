@@ -2,7 +2,7 @@
 
 This repo contains:
 - The **official dataset _NewsInt_** for news intent recognition 
-- The **official method _DMInt_** for news intent application
+- The **official method _DMint_** for news intent application
   
 of the research paper "**Exploring news intent and its application: A theory-driven approach**"
 
@@ -25,7 +25,7 @@ of the research paper "**Exploring news intent and its application: A theory-dri
 - [dataset_readme](https://github.com/ICTMCG/NewsInt/blob/main/dataset_readme.md)
 
 
-⚒️ **DMInt Method**: a plug-in method for news intent application.
+⚒️ **DMint Method**: a plug-in method for news intent application.
 
 - [model_readme](https://github.com/ICTMCG/NewsInt/blob/main/model_readme.md)
 

@@ -1,26 +1,25 @@
 # News Creation Intent Recognition \& Application
 
-<div align= center>
-<img src="figs/fig1.png" width="600px" >
-</div>
-
 This repo contains:
 - The **official dataset _NewsInt_** for news intent recognition 
 - The **official method _DMInt_** for news intent application
   
 of the research paper "**Exploring news intent and its application: A theory-driven approach**"
 
+<div align= center>
+<img src="figs/fig1.png" width="600px" >
+</div>
+
 🎉🎉🎉 Accepted to *Information Processing & Management* [J]
 
 [Zhengjia Wang](https://zhengjiawa.github.io/), Danding Wang, [Qiang Sheng](https://sheng-qiang.github.io/), [Juan Cao](https://people.ucas.ac.cn/~caojuan), Siyuan Ma, Haonan Cheng (2025). Exploring news intent and its application: A theory-driven approach. Information Processing & Management, 62(6), 104229.
-
 - 🛠️ Project: https://github.com/ICTMCG/NewsInt
 - 🔗 Paper: https://doi.org/10.1016/j.ipm.2025.104229
 - 📖 PDF: https://arxiv.org/pdf/2312.16490
 
+---
 
-
-📦 **NewsInt Dataset**: a fine-grained labeled dataset for news creation intent recognition. 
+📦 **NewsInt Dataset**: a fine-grained labeled dataset for news intent recognition. 
 
 - [Application to Use the Dataset NewsInt](https://forms.office.com/r/9QvFCFT835)
 - [dataset_readme](https://github.com/ICTMCG/NewsInt/blob/main/dataset_readme.md)

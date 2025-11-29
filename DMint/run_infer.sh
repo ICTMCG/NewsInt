@@ -1,0 +1,14 @@
+python -W ignore main.py \
+    --gpu 1 \
+    --epochs 50 \
+    --lr 2e-5 \
+    --batchsize 64 \
+    --early_stop 20 \
+    --model_name dmint \
+    --custom_name dmint_infer \
+    --eval \
+    --save_output \
+    --checkpoint ./param_model/dmint/application_ckpt_1/checkpoint.pth \
+    --eval_customer_dataset_path ./application_data/fnd \
+    --infer_task_path train/ \
+    --file_name train.json

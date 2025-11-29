@@ -36,21 +36,21 @@ Published in *Information Processing & Management*, 2025.
 DMint introduces a cognitive-inspired architecture that decomposes news intent through multi-view
 extractors and dynamic view-gated aggregation, enabling joint modeling of compositional semantics and contextual writing patterns via local–global interactions.
 
-- `Text encoder`: Given the news topic and news content, we concatenate them using the [𝑠𝑒𝑝] token as input. Specifically, RoBERTa (Liu et al., 2019) is employed as text encoder.
+- `Text encoder`: Given the news topic and news content, we concatenate them using the [𝑠𝑒𝑝] token as input. Specifically, RoBERTa (Liu et al., 2019) is employed as the text encoder.
 - `Multi-View Extractor`: Three multi-view extractors are developed to explicitly capture different dimensions of news intent.
 - `Intent Aggregator`: builds an adaptive approach, allowing the proposed DMint to adjust and combine these representations (of elements of news intent) dynamically.
 
 
 ## 🚀 Usage
 
-Command for trainning and inferring have been written in the bash file:
+Commands for training and inference have been written in the following bash file. Run by:
 
 ```
 bash run.sh
 bash run_infer.sh
 ```
 
-Results will be automately saved in `./param_model/`
+Results will be automatically saved in `./param_model/`
 
 Suggested requirements:
 ```
@@ -62,7 +62,7 @@ transformers==4.45.2
 ```
 
 # 📖 Citation
-If you find this respository useful, please cite our paper:
+If you find this repository useful, please cite our paper:
 
 ```
 @article{wang2025exploring,

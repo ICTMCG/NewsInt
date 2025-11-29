@@ -74,7 +74,45 @@ For more details on data collection, annotation, and dataset analysis, please re
 
 Please fill out this form: [Application to Use the Dataset NewsInt](https://forms.office.com/r/9QvFCFT835) to request access. [[dataset_readme](https://github.com/ICTMCG/NewsInt/blob/main/dataset_readme.md)]
 
+## 4. Model Usage
+
+[[model_readme](https://github.com/ICTMCG/NewsInt/blob/main/model_readme.md)]
+
+### 📰 Model Architecture
+
+<div align= center>
+<img src="figs/dmint.png" width="600px" >
+</div>
+
+DMint introduces a cognitive-inspired architecture that decomposes news intent through multi-view
+extractors and dynamic view-gated aggregation, enabling joint modeling of compositional semantics and contextual writing patterns via local–global interactions.
+
+- `Text encoder`: Given the news topic and news content, we concatenate them using the [𝑠𝑒𝑝] token as input. Specifically, RoBERTa (Liu et al., 2019) is employed as the text encoder.
+- `Multi-View Extractor`: Three multi-view extractors are developed to explicitly capture different dimensions of news intent.
+- `Intent Aggregator`: builds an adaptive approach, allowing the proposed DMint to adjust and combine these representations (of elements of news intent) dynamically.
+
+
+### 🚀 Run
+
+Commands for training and inference have been written in the following bash file. Run by:
+
+```
+bash run.sh
+bash run_infer.sh
+```
+
+Results will be automatically saved in `./param_model/`
+
+Suggested requirements:
+```
+numpy==2.3.5
+scikit_learn==1.7.2
+torch==2.5.1+cu121
+torchvision==0.20.1+cu121
+transformers==4.45.2
+```
 ---
+
 If you find our paper useful, please cite:
 
 ```
